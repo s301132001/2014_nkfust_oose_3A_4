@@ -21,21 +21,22 @@
 ## 4.個別使用案例的描述 (如 表4.9 P117) ##
 ![](http://i.imgur.com/18RbhIF.jpg)
 ![](http://i.imgur.com/BflG8Gk.jpg)
-![](http://i.imgur.com/G05Ogo4.jpg)
+![](http://i.imgur.com/VdnW6sa.jpg)
 ![](http://i.imgur.com/uarUC7L.jpg)
 ![](http://i.imgur.com/gdV0UQ2.jpg)
 
 ## 5.個別使用案例的活動圖 (如圖4.15 P114) ##
 ![](http://i.imgur.com/Ma1tets.jpg)
 ![](http://i.imgur.com/tqQCi4M.jpg)
-![](http://i.imgur.com/cU1hgY9.jpg)
+![](http://i.imgur.com/J68XLqq.jpg)
+BY  0124091葉名峻<BR>
 ![](http://i.imgur.com/CWMFBi3.jpg)
 ![](http://i.imgur.com/4HhUDfT.jpg)
 
 ## 6.每個使用案例的名詞與概念類別列舉表 (p129 表5.4) ##
 ![](http://i.imgur.com/Lgksruu.jpg)
 ![](http://i.imgur.com/473LCPx.jpg)
-![](http://i.imgur.com/zZOQxvf.jpg)
+![](http://i.imgur.com/erAvoSJ.jpg)
 ![](http://i.imgur.com/KDKp4Gx.jpg)
 ![](http://i.imgur.com/ZYqFrVT.jpg)
 
@@ -46,8 +47,7 @@ BY 0124059 王以德<BR>
 (二).店家資訊分類<BR>
 ![](http://i.imgur.com/m3gZFTc.jpg)
 BY 0124001 陳俊豪<BR>
-![](http://i.imgur.com/2Z6pxA6.jpg)
-
+![](http://i.imgur.com/We8M3OS.jpg)
 (四).查詢作業<BR>
 ![](http://i.imgur.com/oc60jQ6.jpg)
 BY 0124061 蔡易軒<BR>
@@ -132,6 +132,35 @@ deleteFoodClassification<BR>
 </table>
 BY 0124001 陳俊豪
 # (三).客戶特性分析作業 #
+<table>
+<tr>
+<td markdown="1">使用案例：顧客基本資料作業</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+主要成功情節：<BR>
+1.當顧客要註冊基本資料時，顧客進入會員基本資料作業畫面，並啟動註冊會員鍵。<BR>
+<BR>
+2.輸入完畢後，選擇儲存鍵，或是取消鍵。<BR>
+<BR>
+3.如果要針對顧客資訊進行修改，選取修改按鈕，修改完成後，按儲存鍵或取消鍵。<BR>
+</td>
+<td markdown="1">
+<BR>
+inputcustomers(); <BR>
+checkcoustomers(customersItem) <BR>
+savecustomersRec(Customer Rec)<BR>
+modifycustomers(cus_id, Name, birth, address,tel,email) <BR>
+checkcoustomers(customersItem) <BR>
+savecustomersRec(Customer Rec)<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+BY 0124091 葉名峻
 # (四).查詢作業 #
 <table>
 <tr>
@@ -391,6 +420,80 @@ BY 0124059 王以德
 </table>
 BY 0124001 陳俊豪
 # (三).客戶特性分析作業 #
+<table>
+<tr>
+<td markdown="1">合約1：inputcustomers()</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：inputProduct()<BR>
+交互參照：顧客基本資料作業<BR>
+前置條件：存在類別customer之實例newcustomer<BR>
+後置條件：-檢查並確認實例newcustomer之cus_id、Name、birth, address, tel, email屬性之起始值為空白<BR>
+-給定實例 newcustomer之屬性cus_id最新客戶編號<BR>
+-回傳cus_id<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td markdown="1">合約2：checkcoustomers(customersItem) </td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：checkcoustomers(customersItem)<BR>
+交互參照：顧客基本資料作業<BR>
+前置條件：已開啟：customer物件<BR>
+後置條件：-檢查customer之屬性cus_id、Name、birth, address, tel, email之格式是否正確與是否重複<BR>
+-回傳customerMessage<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td markdown="1">合約3：savecustomersRec(Customer Rec)</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：savecustomersRec(Customer Rec)<BR>
+交互參照：顧客基本資料作業<BR>
+前置條件：存在類別customer實例customer<BR>
+後置條件：-將customer存入資料庫中<BR>
+-回傳saveSuccess<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td markdown="1">合約4：modifycustomers(cus_id, Name, birth, address,tel,email)</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：modifycustomers(cus_id, Name, birth, address,tel,email) <BR>
+交互參照：顧客基本資料作業<BR>
+前置條件：存在類別customer實例customer<BR>
+後置條件：-根據cus_id或name讀取商品基本資料customerRec，並存入至物件customer之屬性中<BR>
+-回傳customertRec<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+BY 0124091 葉名峻
 # (四).查詢作業 #
 <table>
 <tr>
@@ -621,15 +724,15 @@ BY 0124061 蔡易軒
 BY 0124017 郭威誠
 ## 11.使用案例之系統循序圖(圖6.13 p170) ##
 # (一).店家基本資料作業 #
-Store
-- 
 ![](http://i.imgur.com/OYUkVT3.png)
-
 # (二).店家資訊分類 #
 ![](http://i.imgur.com/KwKxQpA.jpg)
 # (三).客戶特性分析作業 #
+![](http://i.imgur.com/ipZJsE2.jpg)
+<BR>BY 0124091 葉名峻<BR>
 # (四).查詢作業 #
 Search
 - 
 # (五).顧客針對店家留言 #
+![](http://i.imgur.com/J35Rgu7.jpg)
 
