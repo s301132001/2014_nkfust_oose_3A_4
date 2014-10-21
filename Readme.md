@@ -38,6 +38,7 @@
 ![](http://i.imgur.com/ZYqFrVT.jpg)
 
 ## 7.每個使用案例的初步類別圖 (p137 圖5.13 註:屬性需加入visibility + data type 以及屬於哪種類別boundary entity controller) ##
+(一).店家基本資料作業
 ![](http://i.imgur.com/JY3GeCS.jpg)
 ![](http://i.imgur.com/ASjCVaM.jpg)
 ![](http://i.imgur.com/2Z6pxA6.jpg)
@@ -48,6 +49,7 @@
 ![](http://i.imgur.com/PB0Z47d.jpg)
 
 ## 9.使用案例主要成功情節之英文名稱事件對應(表6.5 p169）) ##
+# (一).店家基本資料作業 #
 <table>
 <tr>
 <td markdown="1">使用案例：店家基本資料作業</td>
@@ -55,7 +57,6 @@
 <tr>
 <td markdown="1">
 <table>
-<tr>
 <td markdown="1">
 主要成功情節：<BR>
 1 當顧客進入商品基本資料作業畫面，並啟動新增按鍵。<BR>
@@ -80,13 +81,124 @@ modifyStores(storesID,storesName, storesInfo) <BR>
 checkItem(StoresItem) saveStoresRec(Stores Rec) <BR>
 deleteStores(storesID,storesName, storesInfo)<BR>
 </td>
-</tr>
 </table>
 </td>
 </tr>
 </table>
 BY 0124059 王以德
+# (二).店家資訊分類 #
+# (三).客戶特性分析作業 #
+# (四).查詢作業 #
+# (五).顧客針對店家留言 #
 ## 10.每個名稱事件之合約(表6.6 p169) ##
+# (一).店家基本資料作業 #
+<table>
+<tr>
+<td markdown="1">合約1：inputStores()</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：inputStores()<BR>
+交互參照：商品基本資料作業<BR>
+前置條件：存在類別Stores之實例newStores<BR>
+後置條件：-檢查並確認實例newStores之storesName、storesInfo、屬性隻起始值為空白<BR>
+-給定實例 newProduct之屬性productID最新商品編號<BR>
+-回傳productID<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td markdown="1">合約2：checkItem(StoresItem)()</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：checkItem(StoresItem)<BR>
+交互參照：商品基本資料作業<BR>
+前置條件：已開啟：Stores物件<BR>
+後置條件：-檢查Product之屬性storesName、storesInfo之格式是否正確與是否重複<BR>
+-回傳itemMessage<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td markdown="1">合約3：saveStoresRec(stores Rec)</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：saveStoresRec(Stores Rec)<BR>
+交互參照：商品基本資料作業<BR>
+前置條件：存在類別Stores實例stores<BR>
+後置條件：-將stores存入資料庫中<BR>
+-回傳saveSuccess<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td markdown="1">合約4：modifyStores(storesID,storesName,storesinfo)</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：modifyStores(storesID,storesName,storesinfo)<BR>
+交互參照：商品基本資料作業<BR>
+前置條件：存在類別Stores實例stores<BR>
+後置條件：-根據storesID或storesName讀取商品基本資料storesRec，並存入至物件stores之屬性中<BR>
+-回傳storesRec<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td markdown="1">合約5：deleteStores(storesID,storesName,storesinfo)</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<td markdown="1">
+操作：deleteStores(storesID,storesName,storesinfo)<BR>
+交互參照：商品基本資料作業<BR>
+前置條件：存在Stores實例stores<BR>
+後置條件：-根據storesID或storesName讀取商品基本資料storesRec<BR>
+-刪除店家基本資料storesRec<BR>
+- 回傳deleteSuccess<BR>
+</td>
+</table>
+</td>
+</tr>
+</table>
+BY 0124059 王以德
+# (二).店家資訊分類 #
+# (三).客戶特性分析作業 #
+# (四).查詢作業 #
+# (五).顧客針對店家留言 #
 
 ## 11.使用案例之系統循序圖(圖6.13 p170) ##
+# (一).店家基本資料作業 #
+Store
+- 
+![](http://i.imgur.com/OYUkVT3.png)
+
+# (二).店家資訊分類 #
+# (三).客戶特性分析作業 #
+# (四).查詢作業 #
+# (五).顧客針對店家留言 #
 
