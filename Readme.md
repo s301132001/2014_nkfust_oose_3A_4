@@ -38,16 +38,54 @@
 ![](http://i.imgur.com/ZYqFrVT.jpg)
 
 ## 7.每個使用案例的初步類別圖 (p137 圖5.13 註:屬性需加入visibility + data type 以及屬於哪種類別boundary entity controller) ##
-![](http://i.imgur.com/AlMA5zb.jpg)
+![](http://i.imgur.com/JY3GeCS.jpg)
 ![](http://i.imgur.com/ASjCVaM.jpg)
 ![](http://i.imgur.com/2Z6pxA6.jpg)
 ![](http://i.imgur.com/wCs5kCL.jpg)
 ![](http://i.imgur.com/jqucuCE.jpg)
 
 ## 8.最後整個系統的初步類別圖 (p151 圖5.30 註:屬性需加入visibility + data type以及屬於哪種類別boundary entity controller) ##
+![](http://i.imgur.com/PB0Z47d.jpg)
 
 ## 9.使用案例主要成功情節之英文名稱事件對應(表6.5 p169）) ##
-
+<table>
+<tr>
+<td markdown="1">使用案例：店家基本資料作業</td>
+</tr>
+<tr>
+<td markdown="1">
+<table>
+<tr>
+<td markdown="1">
+主要成功情節：<BR>
+1 當顧客進入商品基本資料作業畫面，並啟動新增按鍵。<BR>
+2 顧客輸入店家基本資料，包括店家編號、店家名稱、店家介紹、店家價格、店家地址、店家時間及店家網址。<BR>
+3 系統檢查輸入格式，如果有誤要求重新輸入。檢查是否有重覆店家編號。<BR>
+4 輸入完畢後，選取儲存健，或取消鍵。<BR>
+系統重複1-3的動作。<BR>
+5 如果要進行修改，選取修改按鈕，並可依據任一個欄位進行查詢，讀取所要修改之店家記錄。修改完，按確認鍵或取消鍵。<BR>
+6 系統檢查輸入格式，如果有誤要求重新輸入。檢查是否有重覆店家編號。<BR>
+7 如果要進行刪除，選取刪除按鍵，並可依據任一個欄位進行查詢，讀取所要刪除之店家記錄。<BR>
+8 回到商品基本資料作業<BR>
+</td>
+<td markdown="1">
+inputProduct() inputStores(); <BR>
+<BR>
+<BR>
+<BR>
+<BR>
+checkItem(StoresItem) <BR>
+saveStoresRec(Stores Rec) <BR>
+modifyStores(storesID,storesName, storesInfo) <BR>
+checkItem(StoresItem) saveStoresRec(Stores Rec) <BR>
+deleteStores(storesID,storesName, storesInfo)<BR>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+BY 0124059 王以德
 ## 10.每個名稱事件之合約(表6.6 p169) ##
 
 ## 11.使用案例之系統循序圖(圖6.13 p170) ##
