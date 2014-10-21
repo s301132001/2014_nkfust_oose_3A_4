@@ -1,4 +1,5 @@
-##第四組
+
+## 第四組 - 好評網 ##
 組員：<BR>
 0124001陳俊豪<BR>
 0124017郭威誠<BR>
@@ -6,6 +7,7 @@
 0124061蔡易軒<BR>
 0124091葉名峻<BR>
 
+摘要:依據時下流行的實用網站-愛評網，我們希望也能打造出一個屬於我們的台灣生活流行地圖，讓我們可以到處蒐集喜歡的店家、景點，以及透過他人的資訊來讓自己可以做的選擇變多。<BR>
 
 ## 1.利害關係人目標表 (如表3.8 P.85) ##
 ![](http://i.imgur.com/K2Kd4ag.jpg)
@@ -39,7 +41,8 @@
 
 ## 7.每個使用案例的初步類別圖 (p137 圖5.13 註:屬性需加入visibility + data type 以及屬於哪種類別boundary entity controller) ##
 (一).店家基本資料作業
-![](http://i.imgur.com/JY3GeCS.jpg)
+![](http://i.imgur.com/r7ElEgK.jpg)
+BY 0124059 王以德<BR>
 ![](http://i.imgur.com/ASjCVaM.jpg)
 ![](http://i.imgur.com/2Z6pxA6.jpg)
 ![](http://i.imgur.com/wCs5kCL.jpg)
@@ -70,9 +73,7 @@
 8 回到商品基本資料作業<BR>
 </td>
 <td markdown="1">
-inputProduct() inputStores(); <BR>
-<BR>
-<BR>
+inputStores(); <BR>
 <BR>
 <BR>
 checkItem(StoresItem) <BR>
