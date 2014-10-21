@@ -47,6 +47,7 @@ BY 0124059 王以德<BR>
 ![](http://i.imgur.com/m3gZFTc.jpg)
 BY 0124001 陳俊豪<BR>
 ![](http://i.imgur.com/2Z6pxA6.jpg)
+
 (四).查詢作業<BR>
 ![](http://i.imgur.com/oc60jQ6.jpg)
 BY 0124061 蔡易軒<BR>
@@ -625,6 +626,7 @@ Store
 ![](http://i.imgur.com/OYUkVT3.png)
 
 # (二).店家資訊分類 #
+![](http://i.imgur.com/KwKxQpA.jpg)
 # (三).客戶特性分析作業 #
 # (四).查詢作業 #
 Search
