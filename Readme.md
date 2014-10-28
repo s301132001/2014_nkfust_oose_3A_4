@@ -428,7 +428,7 @@ BY 0124001 陳俊豪
 <td markdown="1">
 <table>
 <td markdown="1">
-操作：inputProduct()<BR>
+操作：inputcustomer()<BR>
 交互參照：顧客基本資料作業<BR>
 前置條件：存在類別customer之實例newcustomer<BR>
 後置條件：-檢查並確認實例newcustomer之cus_id、Name、birth, address, tel, email屬性之起始值為空白<BR>
