@@ -47,7 +47,8 @@ BY 0124059 王以德<BR>
 (二).店家資訊分類<BR>
 ![](http://i.imgur.com/kHHXN8u.jpg)
 BY 0124001 陳俊豪<BR>
-![](http://i.imgur.com/We8M3OS.jpg)
+![](http://i.imgur.com/6MzxEuu.jpg)
+BY 0124091 葉名峻<BR>
 (四).查詢作業<BR>
 ![](http://i.imgur.com/oc60jQ6.jpg)
 BY 0124061 蔡易軒<BR>
@@ -131,7 +132,7 @@ deleteFoodClassification<BR>
 </tr>
 </table>
 BY 0124001 陳俊豪
-# (三).客戶特性分析作業 #
+# (三).顧客基本資料作業 #
 <table>
 <tr>
 <td markdown="1">使用案例：顧客基本資料作業</td>
@@ -419,7 +420,7 @@ BY 0124059 王以德
 </tr>
 </table>
 BY 0124001 陳俊豪
-# (三).客戶特性分析作業 #
+# (三).顧客基本資料作業 #
 <table>
 <tr>
 <td markdown="1">合約1：inputcustomers()</td>
