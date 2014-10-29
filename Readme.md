@@ -732,8 +732,7 @@ BY 0124017 郭威誠
 ![](http://i.imgur.com/ipZJsE2.jpg)
 <BR>BY 0124091 葉名峻<BR>
 # (四).查詢作業 #
-Search
-- 
+![Imgur](http://i.imgur.com/xIaGgT0.png)
 # (五).顧客針對店家留言 #
 ![](http://i.imgur.com/J35Rgu7.jpg)
 
