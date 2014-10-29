@@ -57,7 +57,7 @@ BY 0124061 蔡易軒<BR>
 BY 0124017 郭威誠<BR>
 
 ## 8.最後整個系統的初步類別圖 (p151 圖5.30 註:屬性需加入visibility + data type以及屬於哪種類別boundary entity controller) ##
-![](http://i.imgur.com/PB0Z47d.jpg)
+![](http://i.imgur.com/S8Lzcl2.png)
 
 ## 9.使用案例主要成功情節之英文名稱事件對應(表6.5 p169）) ##
 # (一).店家基本資料作業 #
