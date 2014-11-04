@@ -116,7 +116,7 @@ BY 0124059 王以德
 8 回到食物分類畫面<BR>
 </td>
 <td markdown="1">
-inputFoodClassification() ; <BR>
+inputStores() ; <BR>
 <BR>
 <BR>
 <BR>
@@ -328,7 +328,7 @@ BY 0124059 王以德
 # (二).店家資訊分類 #
 <table>
 <tr>
-<td markdown="1">合約1：inputFoodClassification()</td>
+<td markdown="1">合約1：inputStores()</td>
 </tr>
 <tr>
 <td markdown="1">
@@ -727,7 +727,7 @@ BY 0124017 郭威誠
 # (一).店家基本資料作業 #
 ![](http://i.imgur.com/OYUkVT3.png)
 # (二).店家資訊分類 #
-![](http://i.imgur.com/KwKxQpA.jpg)
+![](http://i.imgur.com/NoG0uZC.jpg?1)
 # (三).客戶特性分析作業 #
 ![](http://i.imgur.com/ipZJsE2.jpg)
 <BR>BY 0124091 葉名峻<BR>
