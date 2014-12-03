@@ -728,11 +728,18 @@ BY 0124017 郭威誠
 ![](http://i.imgur.com/OYUkVT3.png)
 # (二).店家資訊分類 #
 ![](http://i.imgur.com/NoG0uZC.jpg?1)
-# (三).客戶特性分析作業 #
+# (三).顧客基本資料作業 #
 ![](http://i.imgur.com/ipZJsE2.jpg)
 <BR>BY 0124091 葉名峻<BR>
 # (四).查詢作業 #
 ![Imgur](http://i.imgur.com/xIaGgT0.png)
 # (五).顧客針對店家留言 #
 ![](http://i.imgur.com/J35Rgu7.jpg)
+## 12.使用案例之強韌圖 ##
+# (一).店家基本資料作業 #
+# (二).店家資訊分類 #
+# (三).顧客基本資料作業 #
+![](http://i.imgur.com/fTkZaz1.png?1)
+# (四).查詢作業 #
+# (五).顧客針對店家留言 #
 
