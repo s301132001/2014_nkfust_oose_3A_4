@@ -737,6 +737,7 @@ BY 0124017 郭威誠
 ![](http://i.imgur.com/J35Rgu7.jpg)
 ## 12.使用案例之強韌圖 ##
 # (一).店家基本資料作業 #
+![](http://i.imgur.com/1BFj5lO.jpg?1)
 # (二).店家資訊分類 #
 # (三).顧客基本資料作業 #
 ![](http://i.imgur.com/fTkZaz1.png?1)
