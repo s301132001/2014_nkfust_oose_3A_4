@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form method="POST" action="name_search.php">
+輸入店家店名：
+<input type="text" name="name" size="18" />
+<input type="submit" name="btn" value="搜尋" />
+<br>
+</form>
+<form method="POST" action="level_search.php">
+選擇分數：
+<select name="st_level">
+  <option value="1">★</option>
+  <option value="2">★★</option>
+  <option value="3">★★★</option>
+  <option value="4">★★★★</option>
+  <option value="5">★★★★★</option>
+</select>
+<input type="submit" name="btn" value="搜尋" />
+<br>
+<input type="submit" formaction="member.php" name="btnexit" value="回前頁" />
+</form>
+</body>
+</html>

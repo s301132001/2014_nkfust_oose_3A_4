@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<form name="form" method="post" action="addstcmt_finish.php">
+店名：<input type="text" name="st_name" /> <br>
+評分：<select name="st_level">
+  <option value="1">★</option>
+  <option value="2">★★</option>
+  <option value="3">★★★</option>
+  <option value="4">★★★★</option>
+  <option value="5">★★★★★</option>
+</select><br>
+評論：<input type="textArea" name="st_cmt" /><br>
+<input type="submit" name="button" value="確定" />
+<input type="submit" formaction="member.php" name="buttonexit" value="取消" />
+</form>
+</body>
+</html>

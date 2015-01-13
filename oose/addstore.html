@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<form name="form" method="post" action="addst_finish.php">
+店名：<input type="text" name="st_name" /> <br>
+地址：<input type="text" name="st_address" /> <br>
+商品：<input type="text" name="goods" /> <br>
+價錢：<input type="number" name="price" /> <br>
+商家介紹：<input type="text" name="introduction" /> <br>
+食物分類：<select name="kind">
+  <option value="麵食">麵食</option>
+  <option value="飯食">飯食</option>
+  <option value="速食">速食</option>
+</select><br>
+<input type="submit" name="button" value="確定" />
+<input type="submit" formaction="admin.php" name="buttonexit" value="取消" />
+</form>
+</body>
+</html>
